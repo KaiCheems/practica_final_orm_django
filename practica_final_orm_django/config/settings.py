@@ -37,10 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app_principal',
-    'clientes',
-    'productos',
-    'ventas',
+    'laboratorio',
 ]
 
 MIDDLEWARE = [
@@ -82,11 +79,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'db_final_orm',
         'USER': 'userdjango',
-        'PASSWORD': 'userdjango', 
+        'PASSWORD': 'userdjango',
         'HOST': 'localhost',
-        'PORT': '5433',  # Puerto configurado en PostgreSQL
+        'PORT': '5433',  # Cambiar según corresponda
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
